@@ -49,7 +49,7 @@ Information sharing is through our "poke" feature. The idea is simple, if you wa
     - Authorization and Authentication of APIs
 
 # Demo Instructions:
-1. Log in with these credentials: username: "mhnguyen@sfu.ca" password: "Password1"
+1. Log in with these credentials: username: "qmaknoji@sfu.ca" password: "Password1"
     - This is an example of a user who has completed all 3 of our surveys, with active friends, etc.
     - Clicking (!) icon on the top right will display notifications.
 

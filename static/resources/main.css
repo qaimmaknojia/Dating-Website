@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.app-button-small {
+    background-color: #C7263E;
+    border-color: #861022;
+}
+
+.x-btn-pressed.app-button-small {
+    background-color: #AD1F34 !important;
+    border-color: #861022 !important;
+}
+
+.big-text .x-btn-inner {
+    font-size: 18px;
+}
+
+.close-tool {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+}
+
+.close-tool .x-btn-inner {
+    color: gray;
+}
+
+.comment-container .x-box-inner {
+    overflow-y: auto;
+}
+
+.comment-dataview {
+    border: 1px solid #d0d0d0;
+}
+
+.comment-selector {
+    background-color: white;
+    padding: 5px;
+}
+
+.custom-h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.event-selector {
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.home-content-text {
+    margin: 60px auto 0 auto;
+    width: 430px;
+}
+
+.home-content-list-item {
+    font-size: 18px;
+    margin: 45px 0px 0px 0px;
+}
+
+.home-content-list-item-inner {
+    margin: 0px 0px 0px 40px;
+}
+
+.home-login-form-body {
+    background-color: transparent;
+}
+
+.home-toolbar {
+    background-color: #a6192e;
+    border: 0px;
+}
+
+.home-toolbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.login-field-label {
+    color: white;
+}
+
+.match-widget {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.userhome-box {
+    padding: 10px;
+}
+
+.form-panel .x-panel-body-default {
+    background-color: transparent;
+    border: 0px;
+}
+
+.matches-panel .x-panel-body-default {
+    background-color: white;
+    border: 0px;
+}
+
+.poke-stack-container {
+    background-color: white;
+}
+
+.x-panel-header-default {
+    background-color: #a6192e;
+}
+
+.x-window-default {
+    border-color: #a6192e;
+}
+
+.x-window-header-default {
+    border-color: #a6192e;
+}
+
+
+.x-window-header-default .x-tool-img {
+    background-color: #a6192e;
+}
+
+.x-window-header-default-top {
+    background-color: #a6192e;
+}
+
+.welcome-text {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+}

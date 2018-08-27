@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>SFU Match</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-triton/resources/theme-triton-all.css">
+    <link rel="stylesheet" type="text/css" href="{% static "resources/main.css" %}">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+    <script type="text/javascript" src="{% static "js/model/Models.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/core/Platform.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/core/Interface.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/view/Common.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/core/Launch.js" %}"></script>
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+    {% block extjs %}
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

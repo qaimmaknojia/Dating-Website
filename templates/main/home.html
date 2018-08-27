@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+{% load staticfiles %}
+{# JS has to be inline to use context #}
+
+{% block extjs %}
+{% if user.is_authenticated %}
+<script type="text/javascript" src="{% static "js/view/UserHome.js" %}"></script>
+<script type="text/javascript">
+    var user = {
+        first_name: '{{user.first_name}}',
+        last_name: '{{user.last_name}}',
+        email: '{{user.email}}',
+        id: '{{user.id}}'
+    };
+    initUserHome(user);
+</script>
+{% else %}
+<script type="text/javascript" src="{% static "js/view/GuestHome.js" %}"></script>
+{% endif %}
+{% csrf_token %}
+{% endblock %}

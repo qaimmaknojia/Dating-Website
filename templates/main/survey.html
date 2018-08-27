@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+{% load staticfiles %}
+{# JS has to be inline to use context #}
+
+{% block extjs %}
+<script type="text/javascript" src="{% static "js/view/Survey.js" %}"></script>
+<script type="text/javascript">
+    var user = {
+        first_name: '{{user.first_name}}',
+        last_name: '{{user.last_name}}',
+        email: '{{user.email}}',
+        id: '{{user.id}}'
+    };
+    var surveyId = {{survey_id}};
+    initSurvey(user, surveyId);
+</script>
+{% endblock %}
